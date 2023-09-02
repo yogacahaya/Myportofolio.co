@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background: #111;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10001;
+    transition: all .50s ease;
+    background: transparent;
+}
+
+header .logo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #dedede;
+    font-size: 22px;
+    font-family: 'poppins';
+    font-weight: 700;
+}
+.logo img{
+    width: 44px;
+    margin-left: 42px;
+    height: auto;
+}
+
+header ul{
+  position: relative;
+  display: flex;
+  margin-left: 175px;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+header ul li a:hover{
+  color: #c4c4c4;
+}
+header.sticky{
+    background: #8f8c8cda;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    position: relative;
+    margin: 75px;
+    padding: 78px;
+    color: #fff;
+}
+.text h2{
+    font-size: 54px;
+    font-family: 'manrope';
+}
+.text p{
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'manrope';
+    margin-top: 12px;
+}
+.text span{
+    background: -webkit-linear-gradient(left, #fff, #373535);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+.btn{
+    margin: 12px;
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: -4px;
+   
+}
+.btn a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    margin-right: 8px;
+    font-family: 'poppins';
+}
+.btn a i{
+    margin-right: 12px;
+}
+.btn button{
+    background: transparent;
+    width: 275px;
+    height: 54px;
+    border-radius: 16px;
+    border: 3px solid #fff;
+}
+.btn button:hover{
+   background: #8b888886;
+}
+
+.image{
+    margin-top: 57px;
+    margin-right: 45px;
+    padding-top: 67px;
+}
+.image img{
+    width: 375px;
+    height: 375px;
+}
+.container1{
+    display: flex;
+    padding: 50px 0;
+    border-radius: 8px;
+   margin-left: 375px;
+    row-gap: 30px;
+    gap: 2rem;
+}
+.circular-progress{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#636161 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #636161;
+}
+.text1{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+  
+}
+
+.circular-progress1{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#636161 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress1::before{
+    content: "";
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value1{
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #636161;
+}
+.row h2{
+    color: #fefdfd;
+    margin-left: 78px;
+}
+.row h2 i{
+    margin-right: 8px;
+}
+.list{
+    background: #393939;
+    margin-left: 133px;
+    margin-top: 76px;
+    display: flex;
+    width: 1210px;
+    height: auto;
+    border-radius: 16px;
+}
+.list img{
+    margin-top: 4px;
+    margin: 9px;
+    border-radius: 8px;
+}
+.con{
+    width: 100%;
+    margin-left: -45px;
+}
+.btn1{
+    margin-left: 675px;
+    margin-top: 68px;
+}
+.btn1 button{
+    background: #fff;
+    border-radius: 8px ;
+    width: 135px;
+    height: 42px;
+}
+.btn1 button a{
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+}
+.tk{
+    margin-left: -696px;
+    margin-top: 64px;
+    font-size: 18px;
+}
+.tk h2{
+    color: #fff;
+}
+.tk h2 span{
+    color: #bd2020;
+}
+.list1{
+    background: #393939;
+    margin-left: 133px;
+    margin-top: 76px;
+    display: flex;
+    width: 1210px;
+    height: auto;
+    border-radius: 16px;
+   
+}
+.list1 img{
+  margin-left: -105px;
+    border-radius: 16px;
+}
+.sub{
+    margin-left: -706px;
+    margin-top: 64px;
+    font-size: 18px;
+}
+.sub h2{
+    color: #fff;
+}
+.sub h2 span{
+  color: #c00;
+}
+.hiresub{
+    color: #fff;
+    text-align: center;
+    margin-top: 45px;
+}
+.conhire{
+    display: flex;
+    margin-left: -44px;
+}
+.hire{
+    margin-top: 65px;
+    margin-left: 106px;
+    
+}
+
+.icon-hire{
+    width: 124px;
+    height: 124px;
+   background: #353434;
+   margin-left: 55px;
+   border-radius: 50%;
+   border: 2px solid #fff;
+}
+
+.icon-hire img{
+    margin-left: 40px;
+    margin-top: 33px;
+    width: 44px;
+    height: 44px;
+}
+
+.text-hire1{
+    margin-top: 84px;
+    margin-left: 12px;
+}
+.text-hire1 h2
+{
+    color: #fff;
+    margin-left: 8px;
+}
+.text-hire1 p{
+    color: #fff;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.footer{
+    margin-top: 35px;
+    margin-left: 64px;
+}
+.con-footer{
+    margin-top: 25px;
+}
+.sub-footer h2{
+    color: #fff;
+}
+.sub-footer p{
+    color: #fff;
+    margin-top: 24px;
+}
+
+.icons {
+    width: 34px;
+    height: 34px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-top: 8px;
+}
+.icons i {
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.icon-footer{
+    display: flex;
+    margin-top: 14px;
+}
+.tex-footer{
+    margin-left: 16px;
+}
+.tex-footer span{
+    color: #5c5959;
+}
+.tex-footer p{
+    color: #fff;
+}
+.footer .vektor{
+    display: flex;
+}
+.flex{
+    display: flex;
+    margin-top: 75px;
+}
+.vektor{
+    margin-left: 455px;
+    margin-top: 54px;
+}
+.vektor img{
+    width: 367px;
+    height: 316px;
+}
+@media screen and (max-width: 476px) {
+    .container{
+       top: 0;
+       left: 0;
+       flex-wrap: wrap;
+
+    }
+    .text{
+        margin-left: 15px;
+    }
+    .text h2,
+    .text p {
+        font-size: 24px;
+        text-align: center;
+    }
+    .image{
+        margin-left: 54px;
+        margin-top: -125px;
+    }
+    .image img{
+        width: 325px;
+        height: 325px;
+    }
+    .container1{
+        margin-left: 35px;
+    }
+    .text1{
+        font-size: 12px;
+    }
+    .progress-value{
+        font-size: 12px;
+    }
+    .circular-progress::before{
+        width: 55px;
+        height: 55px;
+    }
+    .circular-progress{
+        width: 75px;
+        height: 75px;
+    }
+    .circular-progress1::before{
+        width: 55px;
+        height: 55px;
+    }
+    .circular-progress1{
+        width: 75px;
+        height: 75px;
+    }
+    .progress-value1{
+        font-size: 12px;
+    }
+    .logo img{
+        width: 32px;
+        height: 32px;
+        margin-left: -75px;
+    }
+    header{
+        width: 100%;
+    }
+    header ul{
+        margin-left: 4px;
+    }
+    header ul li a{
+        font-size: 12px;
+    }
+    .row h2,
+    .row i{
+        text-align: center;
+    }
+    .list{
+        width: 305px;
+        height: 405px;
+       display: grid;
+    }
+    .list img{
+        border-radius: 8px;
+        width: 275px;
+        height: 102px;
+    }
+    .tk{
+        font-size: 12px;
+       margin-top: -175px;
+       margin-left: -75px;
+    }
+    .sub{
+        font-size: 12px;
+        margin-top: -175px;
+        margin-left: -75px;
+    }
+    .list1{
+        width: 305px;
+        height: 405px;
+        display: grid;
+    }
+    .list1 img{
+        border-radius: 8px;
+        width: 375px;
+        height: 152px;
+        margin-left: -83px;
+    }
+    .con{
+        flex-wrap: wrap;
+    }
+    .btn1{
+        margin-left:117px;
+    }
+   .btn1 button{
+    width: 74px;
+    height: 48px;
+   }
+   .hiresub{
+    text-align: center;
+   }
+   .conhire{
+  display: grid;
+   }
+   .icon-hire{
+    width: 124px;
+    height: 124px;
+   background: #353434;
+   margin-left: 55px;
+   border-radius: 50%;
+   border: 2px solid #fff;
+}
+
+.icon-hire img{
+    margin-left: 40px;
+    margin-top: 33px;
+    width: 44px;
+    height: 44px;
+}
+.flex{
+    flex-wrap: wrap;
+}
+.flex img{
+    margin-left: -375px;
+}
+}
